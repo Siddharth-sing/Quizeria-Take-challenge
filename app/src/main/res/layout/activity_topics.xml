@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TopicsActivity"
+    android:background="@drawable/ic_bg_1">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+         <TextView
+             android:id="@+id/tv_select"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:text="Select Your Topic"
+             android:background="@drawable/select_your_topic_background"
+             android:layout_gravity="center"
+             android:layout_marginTop="25dp"
+             android:padding="10dp"
+             android:layout_marginBottom="24dp"
+             android:textStyle="bold|italic"
+             android:textSize="24sp"
+             android:textColor="#F5F8FD"
+             />
+         <GridLayout
+             android:id="@+id/grid_view"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:rowCount="4"
+             android:columnCount="2"
+             android:layout_margin="5dp"
+             android:alignmentMode="alignMargins"
+             android:layout_gravity="center_horizontal"
+             android:columnOrderPreserved="false">
+
+                 <androidx.cardview.widget.CardView
+                     android:id="@+id/crdv_India"
+                     android:layout_width="170dp"
+                     android:layout_height="170dp"
+                     app:cardCornerRadius="12dp"
+                     app:cardElevation="5dp"
+                     app:cardBackgroundColor="#F6F6F6"
+                     android:layout_margin="10dp">
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="match_parent"
+                         android:orientation="vertical"
+                         android:gravity="center"
+                         android:background="@drawable/topic_background"
+                         android:elevation="5dp">
+
+                         <ImageView
+                             android:id="@+id/imgIndia"
+                             android:layout_width="24dp"
+                             android:layout_height="24dp"
+                             android:src="@drawable/ic_flag_of_india" />
+                         <TextView
+                             android:id="@+id/tv_India"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:text="The Great India"
+                             android:textSize="18sp"
+                             android:textColor="@color/black"
+                             android:textStyle="italic"/>
+                     </LinearLayout>
+                 </androidx.cardview.widget.CardView>
+
+             <androidx.cardview.widget.CardView
+                 android:id="@+id/crdv_Earth"
+                 android:layout_width="170dp"
+                 android:layout_height="170dp"
+                 app:cardCornerRadius="12dp"
+                 app:cardElevation="5dp"
+                 app:cardBackgroundColor="#F6F6F6"
+                 android:layout_margin="10dp">
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical"
+                     android:gravity="center"
+                     android:background="@drawable/topic_background"
+                     android:elevation="5dp">
+
+                     <ImageView
+                         android:layout_width="24dp"
+                         android:layout_height="24dp"
+                         android:src="@drawable/ic_planet_earth" />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Green Earth"
+                         android:textSize="18sp"
+                         android:textColor="@color/black"
+                         android:textStyle="italic"/>
+                 </LinearLayout>
+             </androidx.cardview.widget.CardView>
+
+             <androidx.cardview.widget.CardView
+                 android:id="@+id/crdv_Flags"
+                 android:layout_width="170dp"
+                 android:layout_height="170dp"
+                 app:cardCornerRadius="12dp"
+                 app:cardElevation="5dp"
+                 app:cardBackgroundColor="#F6F6F6"
+                 android:layout_margin="10dp">
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical"
+                     android:gravity="center"
+                     android:background="@drawable/topic_background"
+                     android:elevation="5dp">
+
+                     <ImageView
+                         android:layout_width="24dp"
+                         android:layout_height="24dp"
+                         android:src="@drawable/ic_loc_flag" />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Flags"
+                         android:textSize="18sp"
+                         android:textColor="@color/black"
+                         android:textStyle="italic"/>
+                 </LinearLayout>
+             </androidx.cardview.widget.CardView>
+
+             <androidx.cardview.widget.CardView
+                 android:id="@+id/crdv_Cricket"
+                 android:layout_width="170dp"
+                 android:layout_height="170dp"
+                 app:cardCornerRadius="12dp"
+                 app:cardElevation="5dp"
+                 app:cardBackgroundColor="#F6F6F6"
+                 android:layout_margin="10dp">
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical"
+                     android:gravity="center"
+                     android:background="@drawable/topic_background"
+                     android:elevation="5dp">
+
+                     <ImageView
+                         android:layout_width="24dp"
+                         android:layout_height="24dp"
+                         android:src="@drawable/ic_cricketer" />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Cricket love"
+                         android:textSize="18sp"
+                         android:textColor="@color/black"
+                         android:textStyle="italic"/>
+                 </LinearLayout>
+             </androidx.cardview.widget.CardView>
+
+             <androidx.cardview.widget.CardView
+                 android:id="@+id/crdv_Tech"
+                 android:layout_width="170dp"
+                 android:layout_height="170dp"
+                 app:cardCornerRadius="12dp"
+                 app:cardElevation="5dp"
+                 app:cardBackgroundColor="#F6F6F6"
+                 android:layout_margin="10dp">
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical"
+                     android:gravity="center"
+                     android:background="@drawable/topic_background"
+                     android:elevation="5dp">
+
+                     <ImageView
+                         android:layout_width="24dp"
+                         android:layout_height="24dp"
+                         android:src="@drawable/ic_tech" />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Techy"
+                         android:textSize="18sp"
+                         android:textColor="@color/black"
+                         android:textStyle="italic"/>
+                 </LinearLayout>
+             </androidx.cardview.widget.CardView>
+
+             <androidx.cardview.widget.CardView
+                 android:id="@+id/crdv_Covid"
+                 android:layout_width="170dp"
+                 android:layout_height="170dp"
+                 app:cardCornerRadius="12dp"
+                 app:cardElevation="5dp"
+                 app:cardBackgroundColor="#F6F6F6"
+                 android:layout_margin="10dp">
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:orientation="vertical"
+                     android:gravity="center"
+                     android:background="@drawable/topic_background"
+                     android:elevation="5dp">
+
+                     <ImageView
+                         android:layout_width="24dp"
+                         android:layout_height="24dp"
+                         android:src="@drawable/virus" />
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Covid-19"
+                         android:textSize="18sp"
+                         android:textColor="@color/black"
+                         android:textStyle="italic"/>
+                 </LinearLayout>
+             </androidx.cardview.widget.CardView>
+
+
+
+         </GridLayout>
+
+     </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.siddharthsinghbaghel.quizeria">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_giraafe"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_giraafe"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Quizeria">
+        <activity android:name=".GreenEarthQuizQuestionsActivity"></activity>
+        <activity android:name=".IndiaQuizQuestionsActivity" />
+        <activity
+            android:name=".TopicsActivity"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".ResultActivity"
+            android:theme="@style/NoActionBarTheme" />
+        <activity android:name=".FlagQuizQuestionsActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
