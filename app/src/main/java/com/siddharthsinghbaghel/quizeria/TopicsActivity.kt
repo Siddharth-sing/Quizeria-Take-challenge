@@ -46,6 +46,12 @@ class TopicsActivity : AppCompatActivity(), View.OnClickListener {
                  startActivity(intent)
                  finish()
              }
+             R.id.crdv_Covid ->{
+                 val intent = Intent(this,CovidQuizQuestionsActivity::class.java)
+                 intent.putExtra(Constants.USER_NAME,mUserName)
+                 startActivity(intent)
+                 finish()
+             }
 
          }
     }

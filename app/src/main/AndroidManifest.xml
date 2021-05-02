@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/ic_giraafe"
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizeria">
-        <activity android:name=".GreenEarthQuizQuestionsActivity"></activity>
+        <activity android:name=".CovidQuizQuestionsActivity"></activity>
+        <activity android:name=".GreenEarthQuizQuestionsActivity" />
         <activity android:name=".IndiaQuizQuestionsActivity" />
         <activity
             android:name=".TopicsActivity"
