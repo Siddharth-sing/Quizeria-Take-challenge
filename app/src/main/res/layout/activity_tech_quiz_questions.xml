@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FlagQuizQuestionsActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".TechQuizQuestionsActivity"
     android:fillViewport="true"
-    android:background="@drawable/final_flag1">
+    android:background="@drawable/final_tech_3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,18 +22,19 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:gravity="center"
-            android:textColor="#363A43"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="22sp"
-            android:text="What Country Does this flag belongs to ?"/>
+            tools:text="India is incredible. ?"/>
 
-        <ImageView
-            android:id="@+id/img_flag"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:src="@drawable/ic_flag_of_india"
-            />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:lottie_rawRes="@raw/robo"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
         <LinearLayout
             android:id="@+id/ll_progress_details"
             android:layout_width="match_parent"
@@ -42,17 +43,17 @@
             android:orientation="horizontal"
             android:gravity="center_vertical"
             >
-         <ProgressBar
-             android:id="@+id/progressBar"
-             style="?android:attr/progressBarStyleHorizontal"
-             android:layout_width="0dp"
-             android:layout_height="wrap_content"
-             android:layout_weight="1"
-             android:max="10"
-             android:minHeight="50dp"
-             android:progress="0"
-             android:indeterminate="false"
-             />
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="10"
+                android:minHeight="50dp"
+                android:progress="0"
+                android:indeterminate="false"
+                />
             <TextView
                 android:id="@+id/tv_progress"
                 android:layout_width="wrap_content"

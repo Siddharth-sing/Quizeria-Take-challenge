@@ -9,19 +9,36 @@
         android:roundIcon="@drawable/ic_giraafe"
         android:supportsRtl="true"
         android:theme="@style/Theme.Quizeria">
-        <activity android:name=".CovidQuizQuestionsActivity"></activity>
-        <activity android:name=".GreenEarthQuizQuestionsActivity" />
-        <activity android:name=".IndiaQuizQuestionsActivity" />
+        <activity android:name=".InfoActivity"
+              android:theme="@style/IndiaTheme"
+            />
+        <activity
+            android:name=".TechQuizQuestionsActivity"
+            android:theme="@style/TechTheme" />
+        <activity
+            android:name=".SportsQuizQuestionsActivity"
+            android:theme="@style/SportsTheme" />
+        <activity
+            android:name=".CovidQuizQuestionsActivity"
+            android:theme="@style/CovidTheme" />
+        <activity
+            android:name=".GreenEarthQuizQuestionsActivity"
+            android:theme="@style/EarthTheme" />
+        <activity
+            android:name=".IndiaQuizQuestionsActivity"
+            android:theme="@style/IndiaTheme" />
         <activity
             android:name=".TopicsActivity"
-            android:theme="@style/NoActionBarTheme" />
+            android:theme="@style/TopicsTheme" />
         <activity
             android:name=".ResultActivity"
-            android:theme="@style/NoActionBarTheme" />
-        <activity android:name=".FlagQuizQuestionsActivity" />
+            android:theme="@style/TopicsTheme" />
+        <activity
+            android:name=".FlagQuizQuestionsActivity"
+            android:theme="@style/FlagTheme" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/NoActionBarTheme"
+            android:theme="@style/MainTheme"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

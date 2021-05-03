@@ -23,8 +23,14 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this,TopicsActivity::class.java)
                 intent.putExtra(Constants.USER_NAME,et_name.text.toString())
                 startActivity(intent)
-                finish()
+
             }
         }
+
+         creators_info.setOnClickListener {
+             val intent = Intent(this,InfoActivity::class.java)
+             startActivity(intent)
+
+         }
     }
 }

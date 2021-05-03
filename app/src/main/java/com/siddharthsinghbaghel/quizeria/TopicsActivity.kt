@@ -19,7 +19,7 @@ class TopicsActivity : AppCompatActivity(), View.OnClickListener {
         crdv_India.setOnClickListener(this)
         crdv_Earth.setOnClickListener(this)
         crdv_Covid.setOnClickListener(this)
-        crdv_Cricket.setOnClickListener(this)
+        crdv_Sports.setOnClickListener(this)
         crdv_Flags.setOnClickListener(this)
         crdv_Tech.setOnClickListener(this)
 
@@ -48,6 +48,18 @@ class TopicsActivity : AppCompatActivity(), View.OnClickListener {
              }
              R.id.crdv_Covid ->{
                  val intent = Intent(this,CovidQuizQuestionsActivity::class.java)
+                 intent.putExtra(Constants.USER_NAME,mUserName)
+                 startActivity(intent)
+                 finish()
+             }
+             R.id.crdv_Sports ->{
+                 val intent = Intent(this,SportsQuizQuestionsActivity::class.java)
+                 intent.putExtra(Constants.USER_NAME,mUserName)
+                 startActivity(intent)
+                 finish()
+             }
+             R.id.crdv_Tech ->{
+                 val intent = Intent(this,TechQuizQuestionsActivity::class.java)
                  intent.putExtra(Constants.USER_NAME,mUserName)
                  startActivity(intent)
                  finish()
