@@ -10,5 +10,17 @@
  <strong>How to use?</strong>
   <p>↣ User has to give his/her name to start the Quiz :</p>
    
-https://user-images.githubusercontent.com/72120258/116983337-96a8cd80-ace7-11eb-87a4-9aa97103161c.mp4
+https://user-images.githubusercontent.com/72120258/116983337-96a8cd80-ace7-11eb-87a4-9aa97103161c.mp4  
+
+  <p>↣ Then User will get several options to select which Quiz he/she wants to play :</p>
+
+https://user-images.githubusercontent.com/72120258/116984558-01a6d400-ace9-11eb-87bf-26b1f2ae246e.mp4
+
+  <p>↣ Then User will get several options to select which Quiz he/she wants to play :</p>
+
+https://user-images.githubusercontent.com/72120258/116986549-8a267400-aceb-11eb-8483-2ccfacfca8c2.mp4
+
+  <p>↣ Explore all the quizes and know about me here by clicking the ?:</p>
+  
+https://user-images.githubusercontent.com/72120258/116987579-dde58d00-acec-11eb-9c7a-056564f827e9.mp4
 
